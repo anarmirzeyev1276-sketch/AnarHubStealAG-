@@ -179,4 +179,3 @@ task.wait(0.2)
 CreateSimpleButton("BuyAll", "🎁 Buy All Gamepass Free!", function() BuyAllGamepassesFree() end)
 CreateToggle("FovToggle", "Kamera Gücü (FOV): OFF", "Kamera Gücü (FOV): ON", function(state) fovActive = state end)
 CreateSimpleButton("KickYou", "🛑 KICK YOU (Oyundan Çıx)", function() ManualKick() end)
-
